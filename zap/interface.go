@@ -41,6 +41,7 @@ type Interface interface {
 	ImportLogFiles() *ImportLogFiles
 	Importurls() *Importurls
 	LocalProxies() *LocalProxies
+	Network() *Network
 	Openapi() *Openapi
 	Params() *Params
 	Pnh() *Pnh
